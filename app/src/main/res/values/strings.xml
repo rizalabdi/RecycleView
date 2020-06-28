@@ -10,7 +10,7 @@
 
     </string-array>
 
-    <string-array name="description">
+    <string-array name="address">
         <item>Ketawanggede, Lowokwaru, Kota Malang</item>
         <item>Penanggungan, Klojen, Malang City</item>
         <item>Jatimulyo, Kec. Lowokwaru, Kota Malang</item>
@@ -18,4 +18,6 @@
         <item>Tulusrejo, Kec. Lowokwaru, Kota Malang, Jawa Timur</item>
 
     </string-array>
+
+    <string name="edittext_loc">Malang, Indonesia</string>
 </resources>

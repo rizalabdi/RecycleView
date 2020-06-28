@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
         s1 = getResources().getStringArray(R.array.sistem_tm);
-        s2 = getResources().getStringArray(R.array.description);
+        s2 = getResources().getStringArray(R.array.address);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, images);
         recyclerView.setAdapter(myAdapter);
