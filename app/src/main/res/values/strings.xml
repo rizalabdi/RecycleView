@@ -2,20 +2,20 @@
     <string name="app_name">Tempat Makan</string>
 
     <string-array name="sistem_tm">
-        <item>Tempat Makan 1</item>
-        <item>Tempat Makan 2</item>
-        <item>Tempat Makan 3</item>
-        <item>Tempat Makan 4</item>
-        <item>Tempat Makan 5</item>
+        <item>UB Halal Cafetaria</item>
+        <item>Creative Land Universitas Brawijaya Malang</item>
+        <item>Geprek Bensu Malang</item>
+        <item>Ayam Keprabon Express Malang</item>
+        <item>Jank Jank Wings</item>
 
     </string-array>
 
     <string-array name="description">
-        <item>Alamat Tempat Makan 1</item>
-        <item>Alamat Tempat Makan 2</item>
-        <item>Alamat Tempat Makan 3</item>
-        <item>Alamat Tempat Makan 4</item>
-        <item>Alamat Tempat Makan 5</item>
+        <item>Ketawanggede, Lowokwaru, Kota Malang</item>
+        <item>Penanggungan, Klojen, Malang City</item>
+        <item>Jatimulyo, Kec. Lowokwaru, Kota Malang</item>
+        <item>Mojolangu, Kec. Lowokwaru, Kota Malang</item>
+        <item>Tulusrejo, Kec. Lowokwaru, Kota Malang, Jawa Timur</item>
 
     </string-array>
 </resources>
