@@ -21,21 +21,15 @@
 
         <TextView
             android:id="@+id/nama_text"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Tempat"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="Nama Tempat" />
 
         <TextView
             android:id="@+id/location_text"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lokasi"
-            android:textAlignment="center"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            android:text="Lokasi" />
 
 
         <LinearLayout
