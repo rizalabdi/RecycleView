@@ -65,7 +65,7 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
 
-    public void shareText(View view) {
+    public void shareData(View view) {
         String txt =mLocationEditText.getText().toString();
         String mimeType = "text/plain";
         ShareCompat.IntentBuilder
