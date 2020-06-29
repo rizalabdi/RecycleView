@@ -26,8 +26,8 @@
 
             <ImageView
                 android:id="@+id/myImageView"
-                android:layout_width="70dp"
-                android:layout_height="77dp"
+                android:layout_width="103dp"
+                android:layout_height="135dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.015"
@@ -38,22 +38,22 @@
 
             <TextView
                 android:id="@+id/myText1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="292dp"
+                android:layout_height="43dp"
                 android:text="Title"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.031"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.355" />
+                app:layout_constraintVertical_bias="0.421" />
 
             <TextView
                 android:id="@+id/myText2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="282dp"
+                android:layout_height="22dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="264dp"
                 android:text="Description"
@@ -61,9 +61,10 @@
                 android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.737" />
+                app:layout_constraintVertical_bias="0.716" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
