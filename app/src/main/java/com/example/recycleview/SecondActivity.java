@@ -1,6 +1,7 @@
 package com.example.recycleview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ShareCompat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -62,5 +63,16 @@ public class SecondActivity extends AppCompatActivity {
         } else {
             Log.d("ImplicitIntents", "Can't handle this intent!");
         }
+    }
+
+    public void shareText(View view) {
+        String txt =mLocationEditText.getText().toString();
+        String mimeType = "text/plain";
+        ShareCompat.IntentBuilder
+                .from(this)
+                .setType(mimeType)
+                .setChooserTitle("Share this text with: ")
+                .setText(txt)
+                .startChooser();
     }
 }
