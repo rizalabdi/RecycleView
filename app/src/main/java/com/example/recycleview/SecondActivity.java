@@ -16,7 +16,7 @@ import android.widget.TextView;
 public class SecondActivity extends AppCompatActivity {
 
     ImageView mainImageView;
-    private TextView mLocationEditText;
+    private TextView mNama, mLocationEditText;
 
     String data1,data2;
     int myImageView;
@@ -27,6 +27,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         mainImageView = findViewById(R.id.mainImageView);
+        mNama = (TextView) findViewById(R.id.nama_text);
         mLocationEditText = (TextView) findViewById(R.id.location_text);
 
 
@@ -42,7 +43,7 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
     private void setData(){
-        
+        mNama.setText(data1);
         mLocationEditText.setText(data2);
         mainImageView.setImageResource(myImageView);
     }
