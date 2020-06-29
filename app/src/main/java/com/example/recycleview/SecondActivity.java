@@ -16,7 +16,7 @@ import android.widget.TextView;
 public class SecondActivity extends AppCompatActivity {
 
     ImageView mainImageView;
-    private TextView mNama, mLocationEditText;
+    private TextView mLocationEditText;
 
     String data1,data2;
     int myImageView;
@@ -27,7 +27,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         mainImageView = findViewById(R.id.mainImageView);
-        mNama =findViewById(R.id.nama_text);
         mLocationEditText = (TextView) findViewById(R.id.location_text);
 
 
@@ -43,7 +42,7 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
     private void setData(){
-        mNama.setText(data1);
+        
         mLocationEditText.setText(data2);
         mainImageView.setImageResource(myImageView);
     }
@@ -52,7 +51,7 @@ public class SecondActivity extends AppCompatActivity {
     public void openLocation(View view) {
         // Get the string indicating a location. Input is not validated; it is
         // passed to the location handler intact.
-        String loc = mNama.getText().toString();
+        String loc = mLocationEditText.getText().toString();
 
         // Parse the location and create the intent.
         Uri addressUri = Uri.parse("geo:0,0?q=" + loc);
